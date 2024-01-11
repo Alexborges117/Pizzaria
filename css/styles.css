@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-start: #fae01c;
+    --color-mid: #f93285;
+    --color-final: #751ccb;
+
+    --color--degrade: linear-gradient(90deg, var(--color-start), var(--color-mid), var(--color-final));
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+
+.Titulo{
+    width: 500px;
+    color: #fff;
+}
+h1{
+    font-size: 64px;
+    font-style: italic;
+}
+h3{
+    font-size: 27px;
+    font-weight: bolder;
+    
+}
+h2{
+    font-size: 64px;
+    color: #FF0000;
+
+}
+
+.TP{
+    font-size: 40px;
+    text-align: center;
+}
+h4{
+    font-size: 30px;
+    text-align: center;
+}
+
+.SubTituloFundoVermelho{
+    font-size: 64px;
+    color: #fff;
+}
+
+main{
+    width: auto;
+    height: 100vh;
+    background-color: #FF0000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    width: auto;
+    height: 129px;
+    background-color: #590000;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+nav img{
+    width: 412px;
+    height: 301px;
+}
+
+.SubTitulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#Pedido{
+   height: auto;
+}
+
+.Phones{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.Phone1{
+    margin-bottom: 30rem;
+}
+.Phone2{
+    margin-top: 30rem;
+}
+
+#Slider{
+    max-width: 1920px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Cardapio{
+    background-color: #FF0000;
+}
+
+footer{
+    background-color: #590000;
+}
+
+.Card{
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
+    margin: 20px;
+}
+
+.SubTituloFundoVermelho{
+    color: #ffffff;
+}
+.SaborPizza,
+.SaborEsfiha{
+    color: #FF0000;
+    font-size: 30px;
+}
+
+.Ingrediente{
+    color: #AA0000;
+    font-size: 15px;
+}
+
+.PizzasSalgada,
+.PizzasDoce,
+.EsfihaSalgada,
+.EsfihaDoce{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 1000px;
+}
+
+.PizzasSalgadas,
+.PizzasDoces,
+.EsfihaSalgadas,
+.EsfihaDoces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#OndeEstamos{
+    background-color: #690000;
+    height: 100vh;
+}
+
+.Cont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContTitulo{
+    color: #fff;
+    width: 450px;
+}
+
+.instagram,
+.whatsapp,
+.maps{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    margin: 20px;
+    scale: .8;
+    border-radius: 28px;
+    transition: 1s;
+}
+.instagram img,
+.whatsapp img,
+.maps img{
+    width: 30%;
+}
+
+.instagram{
+    background: var(--color--degrade);
+}
+
+.whatsapp{
+    background-color: #29a71a;
+}
+
+.maps{
+    background-color: #0073ff;
+}
+
+.instagram:hover,
+.whatsapp:hover,
+.maps:hover{
+    cursor: pointer;
+    scale: 1.1;
+    transition: 1s;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+footer{
+    height: 129px;
+    background-color: #590000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+footer span{
+    color: #fff;
+    font-size: 30px;
+}
+
+footer a{
+    color: #FF0000;
+    font-size: 30px;
+}
+
+
+.LogoAlex{
+    width: 50px;
+}
