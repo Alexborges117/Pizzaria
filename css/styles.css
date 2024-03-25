@@ -417,6 +417,6 @@ footer a{
     }
 
     .Cont{
-        height: 100vh;
+        height: auto;
     }
 }
